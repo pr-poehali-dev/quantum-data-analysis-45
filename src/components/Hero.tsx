@@ -26,12 +26,12 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6" style={{textShadow: '0 2px 24px rgba(0,0,0,0.7)'}}>
-        <p className="uppercase tracking-widest text-sm md:text-base mb-4 opacity-80">Маг · Целитель · Волхв · Таролог</p>
+        <p className="uppercase tracking-widest text-sm md:text-base mb-4 opacity-80">Целитель-Волхва · Маг · Таролог</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ПУТЬ К СЕБЕ
+          ЕВА
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
-          Древние знания и сила природы — для исцеления души, снятия порчи и обретения ясности через карты Таро
+          Магические услуги, исцеление и работа с судьбой — помогаю там, где обычные пути закрыты
         </p>
         <a
           href="tel:89009079997"
