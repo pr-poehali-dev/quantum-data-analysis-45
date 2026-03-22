@@ -25,13 +25,20 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white px-6" style={{textShadow: '0 2px 24px rgba(0,0,0,0.7)'}}>
+        <p className="uppercase tracking-widest text-sm md:text-base mb-4 opacity-80">Маг · Целитель · Волхв · Таролог</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ПУТЬ К СЕБЕ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+          Древние знания и сила природы — для исцеления души, снятия порчи и обретения ясности через карты Таро
         </p>
+        <a
+          href="tel:89009079997"
+          className="inline-block border border-white text-white px-8 py-3 uppercase tracking-wide text-sm hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Записаться на приём
+        </a>
       </div>
     </div>
   );
